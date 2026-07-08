@@ -5,8 +5,11 @@ This report has been generated based on the analysis of the data provided by the
 - The salary column had many blank cells, this was therefore corrected with the “if” formula. =IF(E2=””,average$E$E),E2). Where E is the column for salary. The result was then copied and pasted as value. The department column, performance band and bonus percent were introduced with the use of VLOOKUP function as these were not present in the raw data provided. To create the year of service column, I used YEARFRAC formula. Eligible bonus amount/ bonus payout was also achieved by multiplying salary column by the bonus percent column. Data type was changed/ corrected by ensuring salary is in currency form, percent in its form, date in date format etc.
 - 
 - Following the cleaning of the data set, I created a new sheet and named it *analysis*. This sheet houses all my pivot tables and charts. I achieved the desired headings by changing/ editing names, I changed cell type from value to percent for the attrition. Deselected unwanted columns by filtering them out, changed value setting from count to sum or average as required by using the value field settings. The attrition rate was determined by using staff unique ID, their employment status (I filtered out resigned staff) and their department. I introduced my pivot charts by using the insert tab, selected my desired charts for each of the tables. These chats are then cleaned to the best form they could be by removing gridlines, adding titles, hiding excessive/ unwanted labels, inputting axis etc.
-- 
+
+![](https://github.com/mjibulu-commit/CAPSTONE-ANALYSIS-PROJECT/blob/main/pivot%20tables%20and%20chart.jpg)
 - Next was creation of dashboard to help with visualization of my analysis. This was achieved by the use of shapes and cool colours. The pivot charts were introduced unto the dashboard. The dashboard was made interactive by creating relation between it and the pivot tables. This was achieved with the use of slicer. KPI cards were also created on the dashboard, heading was clearly positioned.
+
+![]()
 - --
 #ANALYTIC REPORT OF THE DATA SET#
 From the analysis of this data set, CAPSTONE ENTERPRISE has six department; Human Resource (HR), Finance, Information Technology (IT), Marketing, Sales and Operations. Finance dept had the highest average salary ($87,016) despite being the dept with lowest headcount, whereas IT dept that happened to be the dept with highest headcount (36) only managed to have average salary of $80,389.
